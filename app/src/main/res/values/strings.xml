@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MyProyectPocketSave</string>
+    <string name="welcome">¡Bienvenido!</string>
+    <string name="textTitle">"Por favor complete su información: "</string>
+    <string name="txtrut">Rut</string>
+    <string name="txtlastname">Apellido Paterno</string>
+    <string name="lastnamemat">Apellido Materno</string>
+    <string name="txtdate">Fecha de Nacimiento</string>
+    <string name="txtgen">"Genero: "</string>
+    <string name="rdtextf">Femenino</string>
+    <string name="rbtextm">Masculino</string>
+    <string name="textadress">Dirección</string>
+    <string name="hintemal">Correo electrónico</string>
+    <string name="txtpass">Ingrese su contraseña</string>
+    <string name="textmin">La constraseña debe tener un mínimo de 6 caracteres.</string>
+    <string name="textinclude">Debe incluir números, mayúsculas y carácteres especiales.</string>
+    <string name="txtbutton">VALIDAR</string>
+    <string name="textterm">Acepto los términos y condiciones.</string>
+    <string name="correo">Correo:</string>
+    <string name="inss">Iniciar Sesión</string>
+    <string name="pass">"Contraseña: "</string>
+    <string name="ingpass">Ingresa tu contraseña</string>
+    <string name="textingresar">Ingresar</string>
+    <string name="textbtnregistrarse"> Registrarse</string>
+    <string name="textnoregistrado">¿No tienes una cuenta? Registrate</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nameappsplash">PocketSave</string>
+    <string name="pregunta">¿Qué deseas hacer?</string>
+</resources>
