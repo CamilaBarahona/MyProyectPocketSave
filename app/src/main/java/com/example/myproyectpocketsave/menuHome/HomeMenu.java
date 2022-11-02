@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
@@ -35,8 +36,8 @@ public class HomeMenu extends AppCompatActivity  implements NavigationView.OnNav
         viewPager.setOffscreenPageLimit(100);
         adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new HomeFragment());
-        adapter.addFragment(new RecordatoriosFragment());
         adapter.addFragment(new GastosFragment());
+         adapter.addFragment(new RecordatoriosFragment());
         viewPager.setAdapter(adapter);
         viewPager.setCurrentItem(0);
         bottomBar = findViewById(R.id.bottom_navigation_id);
@@ -114,5 +115,11 @@ public class HomeMenu extends AppCompatActivity  implements NavigationView.OnNav
         }
     }
 
+   /* private void replaceFragment(Fragment fragment) {
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.frame_layout, fragment);
+        fragmentTransaction.commit();
+    } */
 
 }

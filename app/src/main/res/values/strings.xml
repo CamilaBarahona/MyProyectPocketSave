@@ -27,4 +27,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="nameappsplash">PocketSave</string>
     <string name="pregunta">¿Qué deseas hacer?</string>
+    <string name="item_title_home">Home</string>
+    <string name="item_title_gastos">Resumen de Gastos</string>
+    <string name="item_title_recordatorios">Recordatorios</string>
 </resources>

@@ -13,7 +13,7 @@
         app:itemIconSize="40dp"
         android:layout_alignParentTop="true"
         app:itemTextColor="@color/black"
-        app:menu="@layout/navigation"
+        app:menu="@menu/navigation"
         />
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/vp_horizontal"
