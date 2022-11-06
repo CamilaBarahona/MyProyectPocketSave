@@ -15,7 +15,7 @@ import com.example.myproyectpocketsave.R;
 
 import java.util.ArrayList;
 
-public class AdapterConsolidado  extends RecyclerView.Adapter<AdapterConsolidado.ViewHolder> implements View.OnClickListener {
+public class AdapterConsolidado extends RecyclerView.Adapter<AdapterConsolidado.ViewHolder> implements View.OnClickListener {
 
     LayoutInflater inflater;
     Context context;
@@ -41,6 +41,7 @@ public class AdapterConsolidado  extends RecyclerView.Adapter<AdapterConsolidado
     public void setOnClickListener(View.OnClickListener listener) {
         this.listener = listener;
     }
+
     @Override
 
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
@@ -57,6 +58,7 @@ public class AdapterConsolidado  extends RecyclerView.Adapter<AdapterConsolidado
     public int getItemCount() {
         return consolidadoArrayList.size();
     }
+
     @Override
     public void onClick(View view) {
         if (listener != null) {

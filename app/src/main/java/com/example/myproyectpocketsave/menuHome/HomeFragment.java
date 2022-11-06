@@ -1,6 +1,9 @@
 package com.example.myproyectpocketsave.menuHome;
 
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -8,15 +11,10 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-
 import com.example.myproyectpocketsave.AdapterHome.AdapterHome;
 import com.example.myproyectpocketsave.Entidades.ResumenMensual;
 import com.example.myproyectpocketsave.R;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 
@@ -24,7 +22,8 @@ public class HomeFragment extends Fragment {
 
     private final static int rView = R.layout.fragment_home;
 
-    public HomeFragment() {}
+    public HomeFragment() {
+    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -57,6 +56,6 @@ public class HomeFragment extends Fragment {
         resumenMensualArrayList.add(new ResumenMensual("AGOSTO 2022", "650.0000", "400.000", R.drawable.gasto));
         resumenMensualArrayList.add(new ResumenMensual(" SEPTIEMBRE 2022", "655.000", "330.000", R.drawable.gasto));
         resumenMensualArrayList.add(new ResumenMensual(" OCTUBRE 2022", "660.000", "290.000", R.drawable.gasto));
-        return  resumenMensualArrayList;
+        return resumenMensualArrayList;
     }
 }

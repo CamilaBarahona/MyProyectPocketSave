@@ -6,8 +6,8 @@
     android:layout_height="wrap_content"
     app:cardCornerRadius="10dp"
     app:cardElevation="5dp"
-    app:cardUseCompatPadding="true"
-    >
+    app:cardUseCompatPadding="true">
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,81 +17,77 @@
             android:id="@+id/imagenResumen"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/gasto"
-            />
+            android:src="@drawable/gasto" />
 
-            <TextView
-                android:id="@+id/tvMes"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10sp"
-                android:text="RESUMEN OCTUBRE 2022"
-                android:textStyle="bold"
-                android:textSize="15sp"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:layout_toRightOf="@+id/imagenResumen"
-                android:layout_toEndOf="@+id/imagenResumen"
-                android:layout_marginLeft="20dp"
-                android:layout_marginStart="20dp"
-                 />
+        <TextView
+            android:id="@+id/tvMes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="RESUMEN OCTUBRE 2022"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_toRightOf="@+id/imagenResumen"
+            android:layout_toEndOf="@+id/imagenResumen"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp" />
 
-                <TextView
-                    android:id="@+id/tvTitleTotalIngresos"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10sp"
-                    android:text="Total Ingresos: "
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:layout_below="@+id/tvMes"
-                    android:layout_toEndOf="@+id/imagenResumen"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginStart="20dp"/>
+        <TextView
+            android:id="@+id/tvTitleTotalIngresos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="Total Ingresos: "
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_below="@+id/tvMes"
+            android:layout_toEndOf="@+id/imagenResumen"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp" />
 
 
-                <TextView
-                    android:id="@+id/tvTotalIngresos"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10sp"
-                    android:text="$500.000"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:textSize="15sp"
-                    android:layout_below="@+id/tvMes"
-                    android:layout_toEndOf="@+id/tvTitleTotalIngresos"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginStart="10dp"/>
+        <TextView
+            android:id="@+id/tvTotalIngresos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="$500.000"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15sp"
+            android:layout_below="@+id/tvMes"
+            android:layout_toEndOf="@+id/tvTitleTotalIngresos"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp" />
 
 
+        <TextView
+            android:id="@+id/tvTitleTotalEgresos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="Monto Egresos: "
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_below="@+id/tvTitleTotalIngresos"
+            android:layout_toEndOf="@+id/imagenResumen"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp" />
 
 
-                <TextView
-                    android:id="@+id/tvTitleTotalEgresos"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10sp"
-                    android:text="Monto Egresos: "
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:layout_below="@+id/tvTitleTotalIngresos"
-                    android:layout_toEndOf="@+id/imagenResumen"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginStart="20dp"/>
+        <TextView
+            android:id="@+id/tvTotalEgresos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
 
-
-                <TextView
-                    android:id="@+id/tvTotalEgresos"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:layout_marginTop="10sp"
-                    android:text="$200.000"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:textSize="15sp"
-                    android:layout_below="@+id/tvTotalIngresos"
-                    android:layout_toEndOf="@+id/tvTitleTotalEgresos"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginStart="10dp"/>
+            android:layout_marginTop="10sp"
+            android:text="$200.000"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15sp"
+            android:layout_below="@+id/tvTotalIngresos"
+            android:layout_toEndOf="@+id/tvTitleTotalEgresos"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp" />
 
     </RelativeLayout>
 

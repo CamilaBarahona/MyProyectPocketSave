@@ -3,13 +3,14 @@ package com.example.myproyectpocketsave.Entidades;
 // POJO
 public class ResumenMensual {
     private String mes;
-    private  String montoIngreso;
+    private String montoIngreso;
     private String montoEgreso;
     private int imagenId;
 
     public ResumenMensual() {
 
     }
+
     public ResumenMensual(String mes, String montoIngreso, String montoEgreso, int imagenId) {
         this.mes = mes;
         this.montoIngreso = montoIngreso;

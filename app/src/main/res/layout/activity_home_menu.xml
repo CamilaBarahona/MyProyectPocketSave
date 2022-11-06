@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".menuHome.HomeMenu">
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation_id"
         android:layout_width="match_parent"
@@ -13,13 +14,12 @@
         app:itemIconSize="40dp"
         android:layout_alignParentTop="true"
         app:itemTextColor="@color/black"
-        app:menu="@menu/navigation"
-        />
+        app:menu="@menu/navigation" />
+
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/vp_horizontal"
         android:layout_below="@id/bottom_navigation_id"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_behavior=""
-        />
+        app:layout_behavior="" />
 </RelativeLayout>

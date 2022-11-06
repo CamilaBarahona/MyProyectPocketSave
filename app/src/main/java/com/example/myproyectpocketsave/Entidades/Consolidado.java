@@ -1,4 +1,5 @@
 package com.example.myproyectpocketsave.Entidades;
+
 //POJO
 public class Consolidado {
     private String movimiento;
@@ -11,7 +12,7 @@ public class Consolidado {
 
     }
 
-    public Consolidado(String movimiento, String fecha,String categoría, String valor, int imageId) {
+    public Consolidado(String movimiento, String fecha, String categoría, String valor, int imageId) {
         this.movimiento = movimiento;
         this.fecha = fecha;
         this.categoría = categoría;

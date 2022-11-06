@@ -1,12 +1,11 @@
 package com.example.myproyectpocketsave.menuHome;
 
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.fragment.app.Fragment;
 
 import com.example.myproyectpocketsave.R;
 
@@ -14,10 +13,8 @@ import com.example.myproyectpocketsave.R;
 public class RecordatoriosFragment extends Fragment {
 
 
-
     public RecordatoriosFragment() {
     }
-
 
 
     @Override

@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-<item
-    android:id="@+id/myhome"
-    android:icon="@drawable/casap"
-    android:title="@string/item_title_home"
-    />
+    <item
+        android:id="@+id/myhome"
+        android:icon="@drawable/casap"
+        android:title="@string/item_title_home" />
     <item
         android:id="@+id/gastos"
         android:icon="@drawable/calculator"
-        android:title="@string/item_title_gastos"
-        />
+        android:title="@string/item_title_gastos" />
     <item
         android:id="@+id/recordatorios"
         android:icon="@drawable/notificacion"
-        android:title="@string/item_title_recordatorios"
+        android:title="@string/item_title_recordatorios" />
+    <item
+        android:id="@+id/mapas"
+        android:icon="@drawable/mapa"
+        android:title="Localización de compra"
         />
 
 </menu>

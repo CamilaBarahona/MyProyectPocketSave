@@ -75,6 +75,7 @@ public class AdapterHome extends RecyclerView.Adapter<AdapterHome.ViewHolder> im
 
         TextView meses, montosIngreso, montosEgreso;
         ImageView imagen;
+
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             meses = itemView.findViewById(R.id.tvMes);
