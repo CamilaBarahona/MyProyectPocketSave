@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="editTextTextPersonName2" type="id" />
+    <item name="ed_rut" type="id" />
     <item name="title_register" type="id" />
-    <item name="editTextTextPersonName7" type="id" />
+    <item name="ed_nombre" type="id" />
 </resources>
