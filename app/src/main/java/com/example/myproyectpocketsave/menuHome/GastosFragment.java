@@ -1,9 +1,11 @@
 package com.example.myproyectpocketsave.menuHome;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -12,15 +14,18 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.myproyectpocketsave.AdapterHome.AdapterConsolidado;
+import com.example.myproyectpocketsave.AgregarMovimiento;
 import com.example.myproyectpocketsave.Entidades.Consolidado;
 import com.example.myproyectpocketsave.R;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 
 
 public class GastosFragment extends Fragment {
     private final static int rView = R.layout.fragment_gastos;
-
+    View view;
+    FloatingActionButton btn_agregarGasto;
     public GastosFragment() {
     }
 
@@ -34,7 +39,17 @@ public class GastosFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(rView, container, false);
+        view =  inflater.inflate(rView, container, false);
+        btn_agregarGasto = (FloatingActionButton) view.findViewById(R.id.btn_agregarGasto);
+        btn_agregarGasto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(
+                        getActivity(), AgregarMovimiento.class);
+                        startActivity(intent);
+            }
+        });
+    return view;
     }
 
     @Override

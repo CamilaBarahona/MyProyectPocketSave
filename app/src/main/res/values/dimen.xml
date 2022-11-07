@@ -2,4 +2,10 @@
 <resources>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_item_size">20sp</dimen>
+    <dimen name="text_title_size">35sp</dimen>
+    <dimen name="text_subtitle_size">25sp</dimen>
+    <dimen name="text_megatitle_size">60sp</dimen>
+    <dimen name="imgsize">160sp</dimen>
+    <dimen name="splashsize">200sp</dimen>
 </resources>
