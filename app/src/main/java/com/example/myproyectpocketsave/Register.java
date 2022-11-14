@@ -9,18 +9,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.myproyectpocketsave.Database.Leer;
-
-import java.util.Date;
-
 public class Register extends AppCompatActivity {
-    private Button btn_validar, btn_ver;
+    private Button btn_validar;
     private EditText ed_rut, ed_nombre, ed_apelPat, ed_apelMat, ed_direccion, ed_fechaNac, ed_email, ed_pass;
     private RadioGroup rb_genero;
 
@@ -30,7 +25,6 @@ public class Register extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         btn_validar = (Button) findViewById(R.id.btn_validar);
-        btn_ver = (Button) findViewById(R.id.btn_ver);
 
         ed_rut = (EditText) findViewById(R.id.ed_rut);
         ed_nombre = (EditText) findViewById(R.id.ed_nombre);
@@ -60,14 +54,6 @@ public class Register extends AppCompatActivity {
 
         });
 
-        btn_ver.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(
-                        getApplicationContext(), Leer.class
-                ));
-            }
-        });
     }
 
     public void insertar() {
